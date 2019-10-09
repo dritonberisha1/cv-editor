@@ -1,0 +1,22 @@
+version: "3.1"
+
+services: 
+  web:
+    container_name: cv-editor-web
+    build:
+      context: ./web
+      dockerfile: dockerfile
+    ports: 
+      - 3000:3000
+    networks:
+      - cv-editor-net
+    volumes: 
+      - ./web:/cv-editor/web
+    env_file:
+      - ./ops/localhost.env
+
+networks:
+  cv-editor-net:
+    driver: bridge
+
+
