@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+$theme-colors: (
+  "primary": #972ffe
+);
+
+$spacer: 1rem;
+$spacers: (
+  6: (
+    $spacer * 4
+  ),
+  7: (
+    $spacer * 5
+  ),
+  8: (
+    $spacer * 7
+  ),
+  9: (
+    $spacer * 10
+  )
+);
+
+@import "~bootstrap/scss/bootstrap";
+@import "./styles/list.scss";
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-color: theme-color("light");
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.title {
+  border-left: 3px solid green;
+}
+
+ul {
+  list-style-type: none;
+}
+
+i {
+  margin-right: 1rem;
+}
+
+p {
+  line-height: 1.5rem;
+}

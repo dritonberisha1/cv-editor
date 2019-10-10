@@ -1,0 +1,25 @@
+.cv-list {
+  .d-on-ul-hover {
+    display: none;
+  }
+
+  .d-on-li-hover {
+    display: none;
+  }
+
+  ul:hover {
+    .d-on-ul-hover {
+      display: block;
+      margin: auto;
+    }
+  }
+
+  li:hover {
+    .d-on-li-hover {
+      display: block;
+      position: absolute;
+      right: 0;
+      margin-top: -30px;
+    }
+  }
+}

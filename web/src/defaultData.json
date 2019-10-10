@@ -1,0 +1,39 @@
+{
+    "highlights": [
+        {
+            "text": "4+ years of development experience"
+        },
+        {
+            "text": "Full stack developer, JS/Node, Docker, MySQL, NoSQL"
+        },
+        {
+            "text": "Experience with AWS services"
+        },
+        {
+            "text": "Problem solving"
+        },
+        {
+            "text": "Agile delivery experience"
+        }
+    ],
+    "skills": [
+        {
+            "text": "NodeJs, ReactJS, React Native, VueJs"
+        },
+        {
+            "text": "jQuery(JavaScript), HTML5, CSS3, Bootstrap"
+        },
+        {
+            "text": "MySQL, DynamoDB, MongoDB, Redis, Graph DB, Elastic Search, RDS"
+        },
+        {
+            "text": "PHP, Laravel Framework, CodeIgniter"
+        },
+        {
+            "text": "(AWS)Lambda, S3, SQS, SNS, CloudWatch, CloudFront, RDS, Neptune"
+        },
+        {
+            "text": "Git, GitLab, GitHub, Bitbucket, Asana, Jira"
+        }
+    ]
+}
